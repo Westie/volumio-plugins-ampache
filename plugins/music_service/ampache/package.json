@@ -1,0 +1,25 @@
+{
+	"name": "ampache",
+	"version": "1.0.0",
+	"description": "Ampache plugin for Volumio2",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "Ampache",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "music_service"
+	},
+	"dependencies": {
+		"ampache": "^0.1.4",
+		"axios": "^0.18.0",
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"request": "^2.88.0",
+		"v-conf": "^1.4.0",
+		"xml2js": "^0.4.19"
+	}
+}

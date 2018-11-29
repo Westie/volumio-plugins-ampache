@@ -1,0 +1,52 @@
+{
+	"page": {
+		"label": "TRANSLATE.AMPACHE_CONFIGURATION"
+	},
+	"sections": [
+		{
+			"id": "section_account",
+			"element": "section",
+			"label": "TRANSLATE.AMPACHE_ACCOUNT",
+			"icon": "fa-plug",
+			"onSave": {
+				"type": "controller",
+				"endpoint": "music_service/ampache",
+				"method":"saveAmpacheAccount"
+			},
+			"saveButton": {
+				"label": "TRANSLATE.SAVE",
+				"data": [
+					"username",
+					"password",
+					"endpoint"
+				]
+			},
+			"content": [
+				{
+					"id": "username",
+					"type":"text",
+					"element": "input",
+					"doc": "This is the username of your Ampache account",
+					"label": "TRANSLATE.AMPACHE_USERNAME",
+					"value": ""
+				},
+				{
+					"id": "password",
+					"type":"password",
+					"element": "input",
+					"doc": "This is the password of your Ampache account",
+					"label": "TRANSLATE.AMPACHE_PASSWORD",
+					"value": ""
+				},
+				{
+					"id": "endpoint",
+					"type":"text",
+					"element": "input",
+					"doc": "This is the endpoint of your Ampache account",
+					"label": "TRANSLATE.AMPACHE_ENDPOINT",
+					"value": ""
+				}
+			]
+		}
+	]
+}

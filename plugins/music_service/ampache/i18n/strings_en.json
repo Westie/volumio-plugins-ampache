@@ -1,0 +1,13 @@
+{
+	"AMPACHE_USERNAME":"Ampache username",
+	"AMPACHE_PASSWORD":"Ampache password",
+	"AMPACHE_ENDPOINT":"Ampache XML endpoint",
+	"HIGH_BITRATE":"High quality",
+	"SEARCH_RESULTS":"Number of results",
+	"SEARCH_SONGS_SECTION":"Ampache songs",
+	"SEARCH_ALBUMS_SECTION":"Ampache albums",
+	"SEARCH_ARTISTS_SECTION":"Ampache artists",
+	"AMPACHE_CONFIGURATION":"Ampache Configuration",
+	"AMPACHE_ACCOUNT":"Ampache account",
+	"SAVE":"Save"
+}
