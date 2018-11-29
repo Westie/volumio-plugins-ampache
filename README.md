@@ -15,6 +15,7 @@ in use in my local so it does work!
 - Add in support for smart playlists
 - Fix global search (currently it works when namespaced)
 - Fix the back button (it is completely... broken)
+- Figure out how to get playback to work, currently this maps to... Webradio!
 
 ## Installation
 
